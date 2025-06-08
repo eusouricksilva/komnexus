@@ -427,13 +427,10 @@
 			lazyInit( plugins.maps, initMaps );
 		}
 
-		// UI To Top
-		if (isDesktop && !isNoviBuilder) {
-			$().UItoTop({
-				easingType: 'easeOutQuad',
-				containerClass: 'ui-to-top fa fa-angle-up'
-			});
-		}
+		// WhatsApp button
+		$(document).ready(function () {
+			$('.whatsapp-button').fadeIn(200); // Exibe o balão com uma leve animação
+		});
 
 		// RD Navbar
 		if (plugins.rdNavbar.length) {
