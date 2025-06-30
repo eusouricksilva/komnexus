@@ -683,6 +683,23 @@
 		}
 	});
 
+		document.getElementById("whatsapp-form").addEventListener("submit", function (e) {
+			e.preventDefault();
+
+		const nome = document.getElementById("contact-name").value;
+		const negocio = document.getElementById("contact-business").value;
+		const mensagem = document.getElementById("contact-message").value;
+
+		const numero = "5521975360544"; // Troque pelo seu número do WhatsApp
+
+		const texto = `Olá! Me chamo *${nome}*, tenho um negócio chamado *${negocio}* e gostaria de conversar.\n\nMensagem: ${mensagem}`;
+
+		const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
+    
+    window.open(url, "_blank");
+  });
+
+
 	$(window).on("scroll", function() {
 		var scrollHeight = $(document).height();
 		var scrollPosition = $(window).height() + $(window).scrollTop();
