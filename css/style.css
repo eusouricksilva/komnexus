@@ -51,6 +51,9 @@
 	color: inherit;
 }
 
+#home {
+	margin-bottom: 5%;
+}
 a:focus,
 button:focus {
 	outline: none !important;
@@ -843,22 +846,7 @@ html [class*='section-'].section-bottom-0 {
 /*
 * Background Image
 */
-.bg-image {
-	background-image: url('/images/CRM.png');
-		background-size: cover;
-		/* preenche a área */
-		background-position: center;
-		/* centraliza */
-		background-repeat: no-repeat;
-		height: 600px;
-		width: 100%;
-}
 
-@media (min-width: 992px) {
-	.bg-fixed {
-		background-attachment: fixed;
-	}
-}
 
 [class*='bg-'] {
 	background-size: cover;
@@ -870,28 +858,6 @@ html [class*='section-'].section-bottom-0 {
 		background-attachment: fixed;
 	}
 }
-
-/* MOBILE PEQUENO */
-@media (max-width: 480px) {
-	.bg-image {
-		
-	}
-}
-
-/* TABLET */
-@media (max-width: 768px) {
-	.bg-image {
-
-	}
-}
-
-/* DESKTOP */
-@media (min-width: 1280px) {
-	.bg-image {
-	
-	}
-}
-
 
 /*
 * Background Position
