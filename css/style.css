@@ -51,9 +51,6 @@
 	color: inherit;
 }
 
-#home {
-
-}
 a:focus,
 button:focus {
 	outline: none !important;
@@ -674,12 +671,10 @@ html [class*='section-'].section-bottom-0 {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		height: 100vh;
 	}
 	.section-full > .container {
 		width: 100%;
 		height: 100vh;
-		margin-top: 40px;
 	}
 }
 
@@ -4370,6 +4365,7 @@ textarea.form-input {
 		justify-content: center;
 	}
 }
+
 
 /*
 *
