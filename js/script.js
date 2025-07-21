@@ -692,7 +692,7 @@
 
 		const numero = "5521975360544"; // Troque pelo seu número do WhatsApp
 
-		const texto = `Olá! Me chamo *${nome}*, tenho um negócio chamado *${negocio}* e gostaria de conversar.\n\nMensagem: ${mensagem}`;
+		const texto = `Olá! Me chamo *${nome}*, tenho um negócio chamado *${negocio}* e gostaria de conversar.\n\nMeu Desafio: ${mensagem}`;
 
 		const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
     
